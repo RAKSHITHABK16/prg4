@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% block title %}
     <title>BASE HTML file</title> <!--I don't want title tag to be inherited at child.html-->
-  
     {% endblock %}
 </head>
+{% block body_block  %}
 <body>
     <h1>Welcome to base.html</h1>
 </body>
+{% endblock  %}
+
 </html>
